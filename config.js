@@ -5,16 +5,16 @@
 const CONFIG = {
     // Your Valentine's name that will appear in the title
     // Example: "Jade", "Sarah", "Mike"
-    valentineName: "Ananya",
+    valentineName: "Tanvi",
 
     // The title that appears in the browser tab
     // You can use emojis! 💝 💖 💗 💓 💞 💕
-    pageTitle: "Wanna Be My Valentine? 💝",
+    pageTitle: "Wanna Gimme A chokolat?? 💝",
 
     // Floating emojis that appear in the background
     // Find more emojis at: https://emojipedia.org
     floatingEmojis: {
-        hearts: ['❤️', '💖', '💝', '💗', '💓'],  // Heart emojis
+        hearts: ['🍩,'🍪','🍫','💗'],  // Heart emojis
         bears: ['🧸', '🐻']                       // Cute bear emojis
     },
 
@@ -22,36 +22,36 @@ const CONFIG = {
     // Customize each question and its possible responses
     questions: {
         first: {
-            text: "Do you lick me?",                                    // First interaction
+            text: "Am I Chokolat Givable?",                                    // First interaction
             yesBtn: "Yes",                                             // Text for "Yes" button
             noBtn: "No",                                               // Text for "No" button
-            secretAnswer: "I don't like you, I Luv you! 💕"           // Secret hover message
+            secretAnswer: "Yaaaaaaaahhh! 💕"           // Secret hover message
         },
         second: {
-            text: "How much do you luv me?",                          // For the love meter
-            startText: "This much!",                                   // Text before the percentage
+            text: "How Much Chance For Me To Get Chokolat?",                          // For the love meter
+            startText: "Itni Saaari",                                   // Text before the percentage
             nextBtn: "Yayayya...And"                                         // Text for the next button
         },
         third: {
-            text: "Will you be my Valentine on February 14th, 2026? 🌹", // The big question!
-            yesBtn: "Yes Bbg!!",                                             // Text for "Yes" button
-            noBtn: "Neh..I no Like u"                                                 // Text for "No" button
+            text: "When Will You Gimme A Chokolate?", // The big question!
+            yesBtn: "When We Next Meet🥰🤗",                                             // Text for "Yes" button
+            noBtn: "Ni De Rhi..Jaat Hai Ji"                                                 // Text for "No" button
         }
     },
 
     // Love meter messages
     // They show up depending on how far they slide the meter
     loveMessages: {
-        extreme: "Itta Saara Pyaaar?? 🥰🚀💝",  // Shows when they go past 5000%
-        high: "Oye Hoye Hoye Hoye! 🚀💝",              // Shows when they go past 1000%
-        normal: "Less Gooooo! 🥰"                           // Shows when they go past 100%
+        extreme: "Dairy Milk??? 🥰🚀💝",  // Shows when they go past 5000%
+        high: "5 Star?! 🚀💝",              // Shows when they go past 1000%
+        normal: "Ferreero Rocherr!?!?🥰"                           // Shows when they go past 100%
     },
 
     // Messages that appear after they say "Yes!"
     celebration: {
-        title: "Oh My Gawd I love You Sooooo Much Baby! 🎉💝💖💝💓",
-        message: "Now Lemme Come Over And Give You The Best Gift Ever!",
-        emojis: "🎁💖🤗💝💋❤️💕"  // These will bounce around
+        title: "Thank You So So So Much💝💓",
+        message: "Vaise Toh Mai Khud le Skta Hu But Special Things Should Be Given By Special People Only🥰🍫",
+        emojis: "💕🍫🍪🍩☕"  // These will bounce around
     },
 
     // Color scheme for the website
